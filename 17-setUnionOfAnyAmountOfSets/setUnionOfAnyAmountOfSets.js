@@ -1,5 +1,13 @@
 function setUnionOfAnyAmountOfSets(...args) {
-  // Insert code here;
+  let setOBJ = new Set();
+  for (set of args)
+  {
+    for (num of set)
+    {
+      setOBJ.add(num);
+    }
+  }
+  return setOBJ;
 }
 
 // Do not edit this line;

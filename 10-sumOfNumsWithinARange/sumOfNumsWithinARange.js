@@ -1,5 +1,14 @@
 function sumOfNumsWithinARange(nums, start, end) {
-  // Insert code here;
+  var counter = 0;
+
+  for(i = 0; i <= nums.length; i++)
+  {
+    if(start <= nums[i] && nums[i] <= end)
+    {
+      counter++;
+    }
+  }
+  return counter;
 }
 
 // Do not edit this line;
